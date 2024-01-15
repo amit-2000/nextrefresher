@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 
-function TempComp() {
+export default function TempComp() {
   return <div>TempComp</div>;
 }
-
-export default TempComp;

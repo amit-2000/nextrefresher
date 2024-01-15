@@ -1,8 +1,14 @@
-import React from "react";
-
-function some({ params }) {
+// import React from "react";
+import Image from "next/image";
+import image from "@/next.config";
+export default function some({ params }) {
   console.log(params);
-  return <div>somepage {params.slug}</div>;
+  return (
+    <> 
+      <p>
+        This is correct and should work because a div is really good for this
+        task.
+      </p>
+    </>
+  );
 }
-
-export default some;
